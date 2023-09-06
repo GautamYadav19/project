@@ -1,7 +1,89 @@
-<div class="topnav ">
-  <a class="active logo" href="#home">LOGO</a>
-  <a style="float: right" class="signin">cart</a>
-  <a style="float: right" class="contact" href="#contact">Contact</a>
-  <a style="float: right" class="signin">Sign/in</a>
-  <input type="text" placeholder="Search.." />
+<!-- <nav style=""> -->
+<!-- <div id="body"> -->
+<!-- <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" (click)="closeNav()"
+        >&times;</a
+      >
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div> -->
+
+<!-- <div id="main"> -->
+<div class="container-fuild mt-4" style="background-color: aqua">
+  <div class="row">
+    <ul>
+      <li>
+        <span style="font-size: 18px; cursor: pointer" (click)="openNav()"
+          >&#9776;</span
+        >
+      </li>
+      <li>image</li>
+
+      <li><a href="">Cart</a></li>
+      <li><a href="">Your Account</a></li>
+      <li class="hide"><a href="">Contact Us</a></li>
+    </ul>
+
+    <div class="laptop-view">
+      <form class="search-bar">
+        <input type="text" placeholder="Search..." class="form-control" />
+        <!-- <button>search</button> -->
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- </div> -->
+<!-- </div> -->
+<!-- </nav> -->
+
+<!-- <a
+  class="btn btn-primary"
+  data-bs-toggle="offcanvas"
+  href="#offcanvasExample"
+  role="button"
+  aria-controls="offcanvasExample"
+>
+  Link with href
+</a>
+<button
+  class="btn btn-primary"
+  type="button"
+  data-bs-toggle="offcanvas"
+  data-bs-target="#offcanvasExample"
+  aria-controls="offcanvasExample"
+>
+  Button with data-bs-target
+</button> -->
+
+<div
+  class="offcanvas offcanvas-start"
+  tabindex="-1"
+  id="offcanvasExample"
+  aria-labelledby="offcanvasExampleLabel"
+>
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+    <button
+      type="button"
+      class="btn-close"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"
+    ></button>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+      Some text as placeholder. In real life you can have the elements you have
+      chosen. Like, text, images, lists, etc.
+    </div>
+    <hr />
+    <nav class="nav flex-column">
+      <a class="nav-link active" aria-current="page" href="#">Active</a>
+      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+    </nav>
+  </div>
 </div>

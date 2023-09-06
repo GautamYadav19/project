@@ -37,3 +37,36 @@
     </div>
   </div>
 </div>
+ .card{
+  height: 300px; width: 300px;
+  margin: 5px;
+}
+ .content{
+
+  margin: 1px;
+  height: 300px; width: 300px;
+  padding: 20px;
+}
+img{
+  margin-top: 5%;
+}
+@media only screen and (max-width: 1000px) {
+  .container{
+    margin: 5%;
+  }
+  .card{
+    height: 250px; width: 250px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .card{
+    width:1000px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .card{
+    width:1000px;
+    margin-right: 6%;
+  }
+}

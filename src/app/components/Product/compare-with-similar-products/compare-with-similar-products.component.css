@@ -1,0 +1,14 @@
+img{
+  height: 95px;
+  width: 100px;
+  mix-blend-mode:multiply;
+  margin: 25px;
+}
+a{
+  text-decoration: none; color: rgb(18, 145, 123);
+  font-size: 14px;
+}
+
+.checked {
+  color: orange;
+}
