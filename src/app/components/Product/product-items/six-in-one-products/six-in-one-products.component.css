@@ -21,6 +21,51 @@ a
 {
     text-decoration: none;
 }
+/*  */
+
+h4{
+  margin-left: 4%;
+  margin-top: 5px;
+  font-family: "bookerly";
+  font-weight:600;
+}
+
+  @media screen and (max-width: 425px) {
+    .container{
+      background-color: red;
+margin: 10px;
+    }
+    .set-display{
+      margin-left: 1%;
+    }
+  .product-tumb{
+    height: 122px;
+    }
+  .product-details h6 a{
+   padding: 11px;
+  }
+  .main-card{
+    background-color: rgb(210, 228, 243);
+    padding: 2%;
+    margin: 4%;
+    }
+    .main-card h2{
+      display: block;
+      margin-left: 10px;
+    }
+    }
+
+
+@media screen and (min-width:426px) {
+  *{
+    display: none;
+  }
+}
+
+
+
+
+/*  */
 .product-card {
     width: 370px;
     position: relative;
@@ -33,7 +78,7 @@ margin: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 90px;
+    /* height: 90px; */
     padding: 0px;
     background: #f0f0f0;
 }
@@ -44,7 +89,7 @@ margin: 10px;
 }
 
 .product-details {
-    padding: 4px;
+    /* padding: 4px; */
 }
 
 .product-details h6 a {
