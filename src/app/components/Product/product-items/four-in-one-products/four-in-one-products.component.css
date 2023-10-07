@@ -8,9 +8,11 @@
 {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
+
+
 
 
 body
@@ -21,11 +23,90 @@ a
 {
     text-decoration: none;
 }
+h4{
+  margin-left: 4%;
+  margin-top: 5px;
+  font-family: "bookerly";
+  font-weight:600;
+}
+@media screen and (min-width: 768px) {
+/* ab iska baad jitna bhii remain hia screen vo yaha se change kari jayegi */
+.container{
+  background-color: orange;
+}
+
+.set-display{
+  width: 390px;
+
+}
+
+.product-tumb{
+  height: 100px;
+}
+.product-details h6 a{
+  font-size:small;
+  padding: 11px;
+}
+.main-card{
+background-color: rgb(210, 228, 243);
+padding: 2%;
+margin: 3%;
+}
+.main-card h2{
+  display: block;
+  margin-left: 10px;
+}
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .set-display{
+    width: 350px;
+  }
+  .container{
+    background-color: green;
+  }
+  .product-tumb{
+    height: 95px;
+  }
+  .product-details h6 a{
+    font-size: small;
+    padding: 5px;
+  }
+  .main-card{
+  background-color: rgb(210, 228, 243);
+  padding: 2%;
+  margin: 3%;
+  }
+  .main-card h2{
+    display: block;
+    margin-left: 10px;
+  }
+  }
+  @media screen and (max-width: 425px) {
+    .container{
+      background-color: red;
+
+    }
+    .set-display{
+      margin-left: 5%;
+    }
+  .product-tumb{
+    height: 122px;
+    }
+  .product-details h6 a{
+   padding: 11px;
+  }
+    }
+
+
 .product-card {
     width: 370px;
     position: relative;
-    /* box-shadow: 0 2px 7px #dfdfdf; */
-margin: 10px;
+    margin: 10px;
     background: #fafafa;
 }
 
@@ -33,8 +114,8 @@ margin: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 152px;
     padding: 0px;
+    /* height: 152px; */
     background: #f0f0f0;
 }
 
@@ -44,7 +125,7 @@ margin: 10px;
 }
 
 .product-details {
-    padding: 11px;
+    /* padding: 11px; */
 }
 
 .product-details h6 a {
@@ -57,7 +138,6 @@ margin: 10px;
     transition: 0.3s;
 }
 
-.product-details h6 a:hover {
-    color: #fbb72c;
-}
 
+
+/* } */
