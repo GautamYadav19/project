@@ -32,9 +32,9 @@ h4{
 }
 @media screen and (min-width: 768px) {
 /* ab iska baad jitna bhii remain hia screen vo yaha se change kari jayegi */
-.container{
+/* .container{
   background-color: orange;
-}
+} */
 
 .set-display{
   width: 390px;
@@ -67,9 +67,9 @@ margin: 3%;
   .set-display{
     width: 350px;
   }
-  .container{
+  /* .container{
     background-color: green;
-  }
+  } */
   .product-tumb{
     height: 95px;
   }
@@ -88,10 +88,10 @@ margin: 3%;
   }
   }
   @media screen and (max-width: 425px) {
-    .container{
+    /* .container{
       background-color: red;
 
-    }
+    } */
     .set-display{
       margin-left: 5%;
     }

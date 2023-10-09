@@ -4,6 +4,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+// import { SliderModule } from '@syncfusion/ej2-angular-inputs';
+
+import { MatChipsModule } from '@angular/material/chips';
+import { MatTreeModule } from '@angular/material/tree';
+import { FlatTreeControl } from '@angular/cdk/tree';
+import {
+  MatTreeFlatDataSource,
+  MatTreeFlattener,
+} from '@angular/material/tree';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+
 import { HomeComponent } from './components/home/home.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { ProductItemsComponent } from './components/Product/product-items/product-items.component';
@@ -29,6 +41,10 @@ import { RegistrationPageComponent } from './components/registration-page/regist
 import { LoginPageComponent } from './components/login-page/login-page.component';
 import { CommonProductFrameComponent } from './components/Product/product-wish-list/common-product-frame/common-product-frame.component';
 import { AddToCartProductComponent } from './components/Product/add-to-cart-product/add-to-cart-product.component';
+import { ProductDetialMobileViewComponent } from './components/Product/product-detials/product-detial-mobile-view/product-detial-mobile-view.component';
+import { ProductDetialLaptopAndTabletViewComponent } from './components/Product/product-detials/product-detial-laptop-and-tablet-view/product-detial-laptop-and-tablet-view.component';
+import { CommonProductsAndFilterPageComponent } from './components/Product/common-products-and-filter-page/common-products-and-filter-page.component';
+import { FilerComponent } from './components/Product/common-products-and-filter-page/filter-component/filer/filer.component';
 
 @NgModule({
   declarations: [
@@ -57,8 +73,20 @@ import { AddToCartProductComponent } from './components/Product/add-to-cart-prod
     LoginPageComponent,
     CommonProductFrameComponent,
     AddToCartProductComponent,
+    ProductDetialMobileViewComponent,
+    ProductDetialLaptopAndTabletViewComponent,
+    CommonProductsAndFilterPageComponent,
+    FilerComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, FormsModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule,
+    MatChipsModule,
+    MatTreeModule,
+    MatButtonModule,
+    MatIconModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

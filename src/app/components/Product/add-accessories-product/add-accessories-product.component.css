@@ -1,3 +1,6 @@
+ .checked {
+  color: orange;
+}
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
 *
 {
@@ -7,11 +10,93 @@
     padding: 0;
 }
 
-/* */
+
 a
 {
     text-decoration: none;
 }
+
+/* ab iska baad jitna bhii remain hia screen vo yaha se change kari jayegi */
+@media screen and (min-width: 768px) {
+.d-flex{
+  background-color: orange;
+}
+
+
+
+.product-tumb{
+  height: 100px;
+}
+.product-details h6 a{
+  font-size:small;
+  padding: 11px;
+}
+
+.product-tumb{
+  height: 125px;
+  width: 220px;
+
+}
+.product-details h6 a{
+  font-size: 12px;
+  padding: 5px;
+}
+
+.product-details{
+  padding: 9px;
+}
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+  .d-flex{
+    background-color: green;
+  }
+  .product-tumb{
+    height: 95px;
+    width: 175px;
+  }
+  .product-details h6 a{
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .product-details{
+    padding: 9px;
+  }
+
+  }
+  @media screen and (max-width: 425px) {
+    .d-flex{
+      background-color: red;
+
+    }
+  .product-tumb{
+    height: 105px;
+    width: 163px;
+    }
+  .product-details h6 a{
+   padding: 9px;
+   font-size: medium;
+  }
+.product-details-rating{
+  margin-left: 5px;
+}
+.product-details-price{
+  margin-left: 5px;
+  font-size: 22px;
+  color:  rgb(218, 60, 60);
+  font-weight: 500;
+}
+    }
+
+
+
+/*  */
 .product-card {
     width:250px;
     position: relative;
@@ -28,10 +113,10 @@ a
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    /* height: 100px; */
     padding: 0px;
     background: #f0f0f0;
-    width: 163px;
+    /* width: 163px; */
 }
 
 .product-tumb img {
@@ -40,18 +125,8 @@ a
     max-height: 100%;
 }
 
-.product-details {
-    padding: 10px;
-}
 
-.product-catagory {
-    display: block;
-    font-size: 10px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #ccc;
-    margin-bottom: 18px;
-}
+
 
 .product-details h6 a {
     font-weight: 500;

@@ -1,19 +1,64 @@
-/* change kar sakte hain ager sab mai bhot zyada effect ayega */
-@media screen and (min-width: 1440px) {
-  .product-card{
-    width:298px
-  }
-  }
-@media screen and (max-width: 1440px) {
-  .product-card{
-    width:266px
-  }
+.left-side-image span{
+  height: 65px;
+  width: 65px;
+  background-color: aqua;
+  margin: 2px;
 }
-@media screen and (max-width: 1024px) {
-  .product-card{
-    width:245px
+
+@media screen and (min-width: 768px) {
+  /* ab iska baad jitna bhii remain hia screen vo yaha se change kari jayegi */
+
+.middle-image{
+  width: 26%;
+}
+img{
+  height: 450px;
+  width: 400px;
+}
   }
-  }
+  @media screen and (max-width: 1440px) {
+
+.middle-image{
+  width: 28%;
+}
+img{
+  height: 350px;
+  width: 300px;
+}
+    }
+  @media screen and (max-width: 768px) {
+
+.middle-image{
+  width: 30%;
+}
+    }
+    @media screen and (max-width: 425px) {
+      *{
+        display: none;
+      }
+
+      }
+
+
+.left-side-image{
+  position: fixed;
+  width: 65px;
+}
+.middle-image{
+  margin-left: 1%;
+  position: fixed;
+  height: 500px;
+    /* background-color: aqua; */
+}
+.right-product-desc{
+  height: 500px;
+  /* width:100px  ;
+  background-color:rgb(12, 131, 235); */
+}
+/*  */
+.checked {
+  color: orange;
+}
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
 *
 {
@@ -33,12 +78,11 @@ a
     text-decoration: none;
 }
 .product-card {
-  /* width: 298px; */
-  /* width: 370px; */
+    width: 370px;
     position: relative;
-    box-shadow: 0 2px 7px #dfdfdf;
-    margin: 50px auto;
-    background: #fafafa;
+    /* box-shadow: 0 2px 7px #dfdfdf; */
+    margin: 1px;
+    /* background: #fafafa; */
 }
 
 .badge {
@@ -51,6 +95,7 @@ a
     background: red;
     color: #fff;
     padding: 3px 10px;
+    /* padding: 5px; */
 }
 
 .product-tumb {
@@ -59,7 +104,7 @@ a
     justify-content: center;
     height: 152px;
     padding: 0px;
-    background: #f0f0f0;
+    /* background: #f0f0f0; */
 }
 
 .product-tumb img {
@@ -68,15 +113,15 @@ a
 }
 
 .product-details {
-    padding: 30px;
+    padding: 15px;
 }
 
 .product-catagory {
-    display: block;
-    font-size: 8px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #ccc;
+    /* display: block; */
+    /* font-siz: 12px; */
+    font-weight: 500;
+    /* text-transform: uppercase; */
+    /* color: rgb(18, 145, 123); */
     margin-bottom: 18px;
 }
 
@@ -97,8 +142,7 @@ a
 .product-details p {
     font-size: 15px;
     line-height: 22px;
-    margin-bottom: 18px;
-    color: #999;
+
 }
 
 .product-bottom-details {
@@ -113,13 +157,13 @@ a
 }
 
 .product-price {
-    font-size: 18px;
+    font-size: 30px;
     color: #fbb72c;
     font-weight: 600;
 }
 
 .product-price small {
-    font-size: 80%;
+    font-size: 50%;
     font-weight: 400;
     text-decoration: line-through;
     display: inline-block;
@@ -127,17 +171,34 @@ a
 }
 
 .product-links {
-    text-align: right;
+    text-align: left;
 }
 
 .product-links a {
-    display: inline-block;
     margin-left: 5px;
-    color: #e1e1e1;
+    color: black;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .product-links a:hover {
     color: #fbb72c;
+}
+.brief_description{
+  font-size: medium;
+  font-weight: 500;
+  color:black;
+}
+.btn.btn-square {
+  border-radius: 0;
+}
+
+.heading-para{
+  font-size:xx-large;
+  font-weight: 600;
+}
+.heading-desc{
+  font-size:medium;
+
+
 }
