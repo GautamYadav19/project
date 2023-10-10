@@ -8,11 +8,7 @@ import { AppComponent } from './app.component';
 
 import { MatChipsModule } from '@angular/material/chips';
 import { MatTreeModule } from '@angular/material/tree';
-import { FlatTreeControl } from '@angular/cdk/tree';
-import {
-  MatTreeFlatDataSource,
-  MatTreeFlattener,
-} from '@angular/material/tree';
+
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 
