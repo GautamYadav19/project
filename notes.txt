@@ -1,0 +1,31 @@
+mobile views
+ 1.sab theek hai bs arrange karna hai 
+ 2.Icons add karne hain
+ 3.single card ki media theek karni hain
+ 
+ 
+steps ;
+1.sare jisterha se show ho rahe hain wase honge
+  <!-- mobile view -->
+    <app-slider></app-slider>
+    <app-four-in-one-products></app-four-in-one-products>
+    <app-scroller-products></app-scroller-products>
+    <app-six-in-one-products></app-six-in-one-products>
+    <app-product-items></app-product-items>
+    <app-product-detial-mobile-view></app-product-detial-mobile-view>
+
+    <!-- <app-footer></app-footer> -->
+2.next mai single cards hi ayenge 
+3.details cards ayenge
+4.add to cart ayega or wish list ( both are in progress)
+5.payment gate way (no idea)
+
+laptop views
+ 1.mobile views (1,2,3)
+ 2. 4 card ki media query add karni hain sahi se
+ 3. new card pattern mai scroller theek karna hain
+ 4. scroller mai new think add karni hain ya toh btn type aye ya scroller show nahi ho
+ 5.  filer-component mai filter component ko add karni hai bhot chiz
+ 
+ tablet view
+ 

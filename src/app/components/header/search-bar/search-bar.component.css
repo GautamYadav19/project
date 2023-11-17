@@ -1,18 +1,18 @@
-body {
+/* body {
   margin: 0;
   font-family: 'Muli', sans-serif;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   overflow-x: hidden;
 }
-
+ */
 
 
 .carousel {
   width: 100%;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
   padding: 30px;
-  padding-top: 80px;
+  padding-top: 20px;
   position: relative;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -20,7 +20,7 @@ body {
 
 .carousel__container {
   white-space: nowrap;
-  margin: 70px 0px;
+  margin: 5px 0px;
   padding-bottom: 10px;
   display: inline-block;
 }
@@ -33,7 +33,7 @@ body {
 }
 
 .carousel-item {
-  width: 200px;
+  width: 175px;
   height: 250px;
   border-radius: 20px;
   background-color: #95bcd6;
